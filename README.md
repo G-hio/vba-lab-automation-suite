@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=Lab-Automation-VBA&fontSize=60&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=0056b3&height=200&section=header&text=Lab-Automation-VBA&fontSize=60&pauseAnimation=false&animation=fadeIn" />
 </p>
 
 <p align="center">
