@@ -1,23 +1,32 @@
-#  Lab Process Automation (VBA/Excel)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=Lab-Automation-VBA&fontSize=60&animation=fadeIn" />
+</p>
 
-[![VBA](https://img.shields.io/badge/VBA-Automation-yellow?logo=microsoft-excel&logoColor=white)]()
-[![Lab](https://img.shields.io/badge/Laboratory-Systems-blue)]()
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
+  <img src="https://img.shields.io/badge/VBA-Automation-yellow?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Laboratory-Systems-blue?style=for-the-badge" />
+</p>
 
-Repositorio de automatización de flujos de trabajo desarrollado para **AVALQUIMICO SAS**. Esta herramienta optimiza la entrada de datos técnicos mediante macros de eventos en Excel.
+---
 
-## Impacto de Negocio
-* **Eficiencia Operativa:** Automatiza la generación de sub-parámetros técnicos (Grasa, Humedad, Cenizas), eliminando la carga manual de filas por cada análisis proximal detectado.
-* **Integridad de Datos:** Normaliza prefijos de areas (QH, QICL, AAMT, etc.) para asegurar que los los archivos anidados coincidan con la hoja de calculo de cada area.
+###  Automatización de Procesos - AVALQUIMICO SAS
 
-##  Características Técnicas
-* **Arquitectura Modular:** El código separa la lógica de normalización de la de inserción de datos para facilitar el mantenimiento.
-* **Manejo de Errores:** Implementa `On Error GoTo` para evitar bloqueos del sistema ante datos inesperados.
-* **Optimización de Procesos:** Utiliza `Application.ScreenUpdating` para mejorar la velocidad de ejecución en hojas con miles de registros.
+Solución técnica desarrollada para optimizar la entrada de datos y la normalización de códigos de area en un entorno de laboratorio químico.
 
-##  Cómo Implementar
-1. Abrir el editor de VBA en Excel (ALT + F11).
-2. Pegar el contenido de `LabAutomation.vba` en el objeto `Sheet` (Hoja) correspondiente.
-3. El sistema se ejecutará automáticamente ante cualquier cambio en las columnas F o G.
+###  Beneficios del Proyecto
+* **Optimización de Tiempos:** Automatización de la generación de sub-parámetros (Grasa, Humedad, Cenizas).
+* **Integridad de Datos:** Normalización de prefijos de áreas para asegurar la coincidencia con archivos anidados.
+* **Estabilidad:** Manejo de errores profesional para evitar bloqueos del sistema.
 
-##  Autor
-**Giancarlo** - *Ingeniero de Sistemas en formación (8vo semestre) - UNICUCES*
+###  Detalles Técnicos
+* **Event-Driven:** Basado en eventos de hoja de cálculo (`Worksheet_Change`).
+* **Clean Code:** Arquitectura modular con procedimientos separados por responsabilidad.
+* **Efficiency:** Optimización de renderizado mediante control de `ScreenUpdating`.
+
+---
+
+<p align="right">
+  <b>Giancarlo</b><br>
+  <i>Ingeniero de Sistemas (8vo Semestre) - UNICUCES</i>
+</p>
