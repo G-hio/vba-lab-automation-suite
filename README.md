@@ -1,5 +1,5 @@
 # Lab Automation VBA - AVALQUIMICO SAS
-**Giancarlo Hio Angulo** | **Auxiliar de documentacion de Laboratorio / Desarrollador VBA**
+**Giancarlo Hio Angulo** | **Lider de documentacion de Laboratorio / Desarrollador VBA**
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![VBA](https://img.shields.io/badge/VBA-Automation-yellow?style=for-the-badge&logo=visual-studio-code&logoColor=white)
